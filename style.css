@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', Sans-Serif;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
+nav h1 {
+  color: #FC2947;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+nav h2 {
+  color: #FFDEB9;
+  font-weight: bold;
+}
+
+nav .btn {
+  background-color: #FC2947;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#head-content .cardakun {
+  background-color: #ffffff30;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.blink-border {
+    border: 3px solid;
+    border-radius: 10px;
+    animation: blink .5s;
+    animation-iteration-count: infinite;
+    
+    height:40px;
+    padding-bottom: 40px;
+}
+
+@keyframes blink { 50% { border-color: #ff0000; }  }
+
+.blink-border .btn {
+  height: 35px;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: px;
+}
+
+.blink-border:active {
+  color: #FC2947;
+}
+
+.table td {
+  background-color: black;
+  color: white;
+}
+
+#slot img {
+  width: 150px;
+}
+
+#slot p {
+  font-size: 11px;
+}
+
+#slot .card-slot {
+  background-color: #ffffff30;
+  width: 180px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding-top: 7px;
+}
+
+#slot .col {
+  margin-bottom: 30px;
+}
+
+#about h5 {
+  color: #FC2947;
+  text-align: center;
+}
+
+footer {
+  margin-bottom: 120px;
+}
+
+footer p a{
+  color: #FE6244;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #071952;
+  border-top: 2px solid #FC2947;
+  border-bottom: 1px solid #FC2947;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar .text-int {
+  color: #FC2947;
+}
+.navbar .fa-user {
+  color: #FC2947;
+  font-size: 30px;
+}
+
+.bouncing-arrow {
+        animation: 2s ease 0s normal none infinite running bounce;
+        
+        width: 60px;
+    }
+    @keyframes bounce { 
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+        40% {transform: translateY(-30px);} 
+        60% {transform: translateY(-15px);} 
+    } 
+    .bounce { 
+        animation-name: bounce; 
+}
+
+.nav-link:active {
+  color: #FC2947;
+}
+    
+  
